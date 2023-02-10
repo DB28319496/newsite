@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Advanced Responsive Website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h3>My Website</h3>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="showcase">
+        <h1>Welcome to My Website</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed tincidunt bibendum sem, euismod viverra ipsum viverra in. Proin placerat fringilla sapien, vitae fringilla magna egestas vel.</p>
+        <a href="#" class="btn">Learn More</a>
+      </section>
+      <section class="services">
+        <h2>Our Services</h2>
+        <div class="service">
+          <img src="service1.png" alt="Service 1">
+          <h3>Service 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.</p>
+        </div>
+        <div class="service">
+          <img src="service2.png" alt="Service 2">
+          <h3>Service 2</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.</p>
+        </div>
+        <div class="service">
+          <img src="service3.png" alt="Service 3">
+          <h3>Service 3</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.</p>
+        </div>
+      </section>
+      <section class="contact">
+        <h2>Get in Touch</h2>
+        <form action="#">
+          <input type="text" placeholder="Name">
+          <input type="email" placeholder="Email">
+          <textarea placeholder="Message"></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+    <
